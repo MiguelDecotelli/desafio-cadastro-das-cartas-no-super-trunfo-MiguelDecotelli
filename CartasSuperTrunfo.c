@@ -72,6 +72,7 @@ int main()
        float super_poder2 = ((float)populacao2 + area_estado2 + PIB2 + numero_pontos_turisticos2 + PIB_per_capita2 + densidade_populacional_invertida2);
 
        // Comparação de poderes das cartas - Desafio Mestre.
+       // Conversão dos tipos FLOAT para INT para exibição correta do resultado (1 ou 0), sem valores reais, apenas inteiros.
        unsigned int populacao =  populacao1 > populacao2;
        int area = (int) (area_estado1 > area_estado2);
        int PIB = (int) (PIB1 > PIB2);
