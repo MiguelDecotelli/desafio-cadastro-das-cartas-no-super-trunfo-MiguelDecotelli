@@ -33,6 +33,14 @@ int main()
 
        printf("Informe o número de pontos turísticos da cidade 1: ");
        scanf("%d", &numero_pontos_turisticos1);
+       
+       // Exibição do Resultado das entradas do usuário para Carta 01 - Níveis Novato e Aventureiro:
+       // printf("\nCarta 1:\nEstado: %c\nCódigo: %c%s\n"
+       //        "Nome da Cidade: %s\nPopulação: %d habitantes\nÁrea: %.2f km²\n"
+       //        "PIB: R$ %.2f bilhões\nNúmero de Pontos Turísticos: %d.\n"
+       //        "Densidade Populacional: %.2f hab/km²\nPIB per Capita: R$ %.2f por pessoa.\n\n",
+       //        estado1, estado1, codigo_carta1, cidade1, populacao1, area_estado1,
+       //        PIB1, numero_pontos_turisticos1, densidade_populacional1, PIB_per_capita1);
 
        // Requisição das informações da carta 2 feitas ao usuário.
        printf("\nInforme a letra do Estado 2 (Entre A e H): ");
@@ -56,7 +64,15 @@ int main()
        printf("Informe o número de pontos turísticos da cidade 2: ");
        scanf("%d", &numero_pontos_turisticos2);
 
-       // Cálculo das variáveis - Desafio Intermediário.
+       // Exibição do Resultado das entradas do usuário para Carta 02 - Níveis Novato e Aventureiro:
+       // printf("\nCarta 2:\nEstado: %c\nCódigo: %c%s\n"
+       //        "Nome da Cidade: %s\nPopulação: %d habitantes\nÁrea: %.2f km²\n"
+       //        "PIB: R$ %.2f bilhões\nNúmero de Pontos Turísticos: %d\n"
+       //        "Densidade Populacional: %.2f hab/km²\nPIB per Capita: R$ %.2f por pessoa.\n\n",
+       //        estado2, estado2, codigo_carta2, cidade2, populacao2, area_estado2, 
+       //        PIB2, numero_pontos_turisticos2, densidade_populacional2, PIB_per_capita2);
+
+       // Cálculo das variáveis - Desafio Aventureiro.
        float densidade_populacional1 = (float)populacao1 / area_estado1;
        float PIB_per_capita1 = (PIB1 * 10000000) / (float)populacao1;
 
